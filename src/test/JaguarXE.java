@@ -25,7 +25,8 @@ public class JaguarXE implements VehicleInterface {
 	public void vehiclePrice() {
 		Date date = new Date();
 		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-		System.out.println(formatter.format(date) + "The vehicle price is: " + price);
+		System.out.println("The vehicle price is: " + price);
+		System.out.println(formatter.format(date));
 	}
 
 }
